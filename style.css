@@ -156,7 +156,18 @@ width: 50%;
 
  #tour{
     background: #721010;
+    padding: 60px 0px;
  }
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+#tour img{
+    width: 40%;
+}
+#tour .texto{
+    width: 50%;
+}
 
  /* NOTICIAS */
   .news-article {
@@ -181,4 +192,13 @@ width: 50%;
     text-align: center;
   } 
   
- 
+ /* MOBILE */
+ @media screen and (max-width: 768px) {
+    .indexgif{
+        background-color: black;
+        background-image: none
+    }
+    .imgrvng{
+        width: 95%;
+    }
+ }
