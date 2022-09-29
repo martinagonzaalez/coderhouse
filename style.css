@@ -158,15 +158,27 @@ width: 50%;
     background: #721010;
     padding: 60px 0px;
  }
+
+ #tour h4{
+    color: #ffffff;
+    text-align: center;
+ }
+
 #tour .contenedor {
     display: flex;
     justify-content: space-around;
 }
 #tour img{
     width: 40%;
+    position: relative;
+    top: -30px;
 }
 #tour .texto{
     width: 50%;
+}
+.fechas{
+    display: flex;
+    
 }
 
  /* NOTICIAS */
