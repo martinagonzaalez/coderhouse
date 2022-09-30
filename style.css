@@ -4,11 +4,6 @@ margin: 0;
 padding: 0;
 }
 
-/* Header de la pagina */
-
-
-
-
 /* fondo de index*/
 .indexgif{
     background-image: url(./imagenes/MyChemicalRomance.gif);
@@ -61,22 +56,6 @@ width: 50%;
     border-style: solid;
     border-radius: 0px 0px 0px 0px;
     padding: 15px 30px 15px 30px;
-}
-
-
-
-
-/* contenedor padre */
-.grid-container{
-    /* habilitar la grilla de grid */
-    display: grid;
-    border: solid 4px black;
-    margin: 5px;
-    /* cant filas */
-    grid-template-rows: 200px 200px 200px;
-
-    /* cant de columnas*/
-    grid-template-columns: 200px 200px 200px;
 }
 
 /* FORMULARIO */
@@ -155,30 +134,55 @@ width: 50%;
  /* SECCION GIRA */
 
  #tour{
-    background: #721010;
-    padding: 60px 0px;
+    background: #090505;
+    padding: 40px 0px;
+    margin: 40px 200px;
  }
 
- #tour h4{
-    color: #ffffff;
-    text-align: center;
+ #tour imagen{
+    width: 40%;
  }
+
 
 #tour .contenedor {
     display: flex;
-    justify-content: space-around;
+
 }
 #tour img{
-    width: 40%;
+    margin: 40px 50px;
+    width: 90%;
     position: relative;
-    top: -30px;
+    top: -100px;
 }
 #tour .texto{
-    width: 50%;
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+    margin-right: 60px;
+    margin-left: 50px;
 }
 .fechas{
     display: flex;
-    
+    justify-content: space-around;
+    color: #ffffff;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #4b202033;
+
+}
+.fechas .numero{
+    font-size: 40px;
+}
+
+.fechas h5, .fechas p{
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.fechas h5{
+    font-size: 20px;
 }
 
  /* NOTICIAS */
