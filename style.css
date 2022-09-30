@@ -135,7 +135,6 @@ width: 50%;
 
  #tour{
     background: #090505;
-    padding: 40px 0px;
     margin: 40px 200px;
  }
 
@@ -152,7 +151,13 @@ width: 50%;
     margin: 40px 50px;
     width: 90%;
     position: relative;
-    top: -50px;
+    top: -14px;
+}
+#tour .tickets{
+    margin-top: 60px;
+}
+#tour .texto-tour{
+    margin-top: 40px;
 }
 #tour .texto{
     color: #ffffff;
@@ -209,7 +214,9 @@ width: 50%;
   } 
   
  /* MOBILE */
+
  @media screen and (max-width: 768px) {
+    /* SECCION INDEX */
     .indexgif{
         background-color: black;
         background-image: none
@@ -217,4 +224,38 @@ width: 50%;
     .imgrvng{
         width: 95%;
     }
+   /* SECCION GIRA */
+   #tour .contenedor{
+    flex-direction: column;
+
+   }
+   #tour .imgtour{
+    margin: 0px 120px;
+    width: 60%;
+    position: relative;
+    top: -15px;
+    }
+   #tour .tickets{
+    font-size: 30px;
+    margin-top: -60px;
+    margin-right: 50px;
+   }
+
+   #tour .texto-tour{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+   }
+   #tour{
+    margin: 0px;
+    padding: 0px;
+   }
+ }
+ @media screen and (max-width: 768px){
+    #tour .imgtour{
+        margin: 0px 50px;
+        width: 60%;
+        position: relative;
+        top: -15px;
+        }
  }
