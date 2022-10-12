@@ -1,3 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.body {
+  background-color: black;
+}
+
+.indexgif {
+  background-image: url(/imagenes/MyChemicalRomance.gif);
+  background-size: cover;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+.indexgif .portada {
+  display: flex;
+  justify-content: center;
+  min-width: 20%;
+}
+.indexgif .imgrvng {
+  width: 50%;
+}
+.indexgif .out-now {
+  font-family: "PT Sans", bold;
+  background-color: rgba(82, 94, 117, 0);
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 45px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.indexgif .streaming-button {
+  display: flex;
+  justify-content: center;
+}
+.indexgif .streaming {
+  font-family: "PT Sans", sans-serif;
+  text-decoration: inherit;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.082);
+  border-style: solid;
+  border-radius: 0px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+}
+
+#tour {
+  font-family: "PT Sans", bold;
+  background: #090505;
+  margin: 40px 200px;
+}
+#tour .imagen {
+  width: 40%;
+}
+#tour .contenedor {
+  display: flex;
+}
+#tour img {
+  margin: 40px 50px;
+  width: 90%;
+  position: relative;
+  top: -14px;
+}
+#tour .tickets {
+  margin-top: 60px;
+}
+#tour .texto-tour {
+  margin-top: 40px;
+}
+#tour .texto {
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  width: 90%;
+  margin-right: 60px;
+  margin-left: 50px;
+}
+
+.fechas {
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid rgba(75, 32, 32, 0.2);
+}
+
+.fechas .numero {
+  font-size: 40px;
+}
+
+.fechas h5, .fechas p {
+  margin: 0%;
+  margin-top: 5px;
+}
+
+.fechas h5 {
+  font-size: 20px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  #tour .imgtour {
+    margin: 0px 50px;
+    width: 60%;
+    position: relative;
+    top: -15px;
+  }
+}
+.formulario {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formulario input {
+  display: block;
+}
+
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario textarea {
+  width: 92%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #635353;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.formulario input[type=text]:focus,
+.formulario input[type=email]:focus,
+.formulario textarea:focus {
+  border: 2px solid #ffffff;
+}
+
+.formulario textarea {
+  max-width: 95%;
+  min-width: 95%;
+  max-height: 50px;
+  min-height: 150px;
+}
+
+.formulario input[type=submit] {
+  background-color: #721010;
+  padding: 15px 35px;
+  border: 1px solid #380404;
+  border-radius: 3px;
+  margin: 0px auto;
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#discografia {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+}
+#discografia .descripcion {
+  font-size: 18px;
+}
+#discografia .anuncio {
+  font-size: 38px;
+}
+#discografia .revenge {
+  color: #721010;
+  text-decoration: underline;
+}
+#discografia .contenedor {
+  font-size: 18px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+#discografia .foto {
+  width: 100%;
+}
+#discografia .bullets {
+  display: flex;
+  width: 100%;
+  padding-right: 80px;
+  padding-left: 46px;
+  padding-top: 40px;
+}
+#discografia .bulletstexto {
+  font-size: 15px;
+  padding-left: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

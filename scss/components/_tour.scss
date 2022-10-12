@@ -1,0 +1,66 @@
+#tour{
+    font-family: 'PT Sans', bold;
+    background: $secondaryColor;
+    margin: 40px 200px;
+    
+    .imagen{
+    width: 40%;
+    }
+
+  .contenedor {
+    display: flex;
+}
+img{
+    margin: 40px 50px;
+    width: 90%;
+    position: relative;
+    top: -14px;
+}
+ .tickets{
+    margin-top: 60px;
+}
+.texto-tour{
+    margin-top: 40px;
+}
+.texto{
+    font-family: 'PT Sans', sans-serif;
+    color: nth($colores, 1);
+    text-align: center;
+    width: 90%;
+    margin-right: 60px;
+    margin-left: 50px;
+}}
+.fechas{
+    font-family: 'PT Sans', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        color: nth($colores, 1);
+        margin: auto;
+        width: 100%;
+        padding-bottom: 40px;
+        margin-bottom: 60px;
+        border-bottom: 1px solid #4b202033;
+    
+    }
+    .fechas .numero{
+        font-size: 40px;
+    }
+    
+    .fechas h5, .fechas p{
+        margin: 0%;
+        margin-top: 5px;
+    }
+    
+    .fechas h5{
+        font-size: 20px;
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 768px){
+        #tour .imgtour{
+            margin: 0px 50px;
+            width: 60%;
+            position: relative;
+            top: -15px;
+            }
+     }
