@@ -1,51 +1,6 @@
 
-/* GIFS SECCION VIDEOS */
 
-.gif-1{
-    width: 100%;
-    margin: 20px auto;
-    border: 1px;
-    border-radius: 5px;
-    padding: 20px;
-}
-.gif-2{
-    width: 100%;
-    margin: 20px auto;
-    border: 1px;
-    border-radius: 5px;
-    padding: 20px;
-}
-.gif-3{
-    width: 100%;
-    margin: 20px auto;
-    border: 1px;
-    border-radius: 5px;
-    padding: 20px;
-}
 
- /* NOTICIAS */
-  .news-article {
-    width: 550px;
-    border-radius: 15px;
-    margin: auto;
-    padding: 25px;
-    background-color: #380404;
-    box-shadow: 10px 11px 35px -14px #460a0a75;
-  }
-  .news-title {
-    color: #635353;
-    margin-bottom: 0;
-    padding: 10px;
-    text-align: center;
-    letter-spacing: 5px;
-  } 
-  .news-post-by {
-    color: #635353;
-    margin-bottom: 0;
-    padding: 10px;
-    text-align: center;
-  } 
-  
  /* MOBILE */
 
  @media screen and (max-width: 768px) {
@@ -57,38 +12,4 @@
     .imgrvng{
         width: 95%;
     }
-   /* SECCION GIRA */
-   #tour .contenedor{
-    flex-direction: column;
-
-   }
-   #tour .imgtour{
-    margin: 0px 120px;
-    width: 60%;
-    position: relative;
-    top: -15px;
-    }
-   #tour .tickets{
-    font-size: 30px;
-    margin-top: -60px;
-    margin-right: 50px;
-   }
-
-   #tour .texto-tour{
-    font-size: 15px;
-    margin-top: 10px;
-    margin-right: 50px;
-   }
-   #tour{
-    margin: 0px;
-    padding: 0px;
-   }
- }
- @media screen and (max-width: 768px){
-    #tour .imgtour{
-        margin: 0px 50px;
-        width: 60%;
-        position: relative;
-        top: -15px;
-        }
  }
