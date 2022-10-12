@@ -1,0 +1,38 @@
+#discografia{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    color: nth($colores, 1);
+    .descripcion{
+        font-size: 18px;
+    }
+    .anuncio{
+        font-size: 38px;
+    }
+    .revenge{
+        color: nth($colores, 2);
+        text-decoration: underline;
+    }
+    .contenedor{
+        font-size: 18px;
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .foto{
+        width: 100%;
+    }
+    .bullets{
+        display: flex;
+        width: 100%;
+        padding-right: 80px;
+        padding-left: 46px;
+        padding-top: 40px;
+    }
+
+    .bulletstexto{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+
+}
