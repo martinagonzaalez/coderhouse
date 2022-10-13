@@ -57,10 +57,37 @@ img{
     /* RESPONSIVE */
 
     @media screen and (max-width: 768px){
-        #tour .imgtour{
-            margin: 0px 50px;
+        #tour .contenedor{
+            flex-direction: column;
+        
+           }
+           #tour .imgtour{
+            margin: 0px 120px;
             width: 60%;
             position: relative;
             top: -15px;
             }
+           #tour .tickets{
+            font-size: 30px;
+            margin-top: -60px;
+            margin-right: 50px;
+           }
+        
+           #tour .texto-tour{
+            font-size: 15px;
+            margin-top: 10px;
+            margin-right: 50px;
+           }
+           #tour{
+            margin: 0px;
+            padding: 0px;
+           }
+         }
+         @media screen and (max-width: 768px){
+            #tour .imgtour{
+                margin: 0px 50px;
+                width: 60%;
+                position: relative;
+                top: -15px;
+                }
      }

@@ -43,3 +43,15 @@
             padding: 15px 30px 15px 30px;
         }
 }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    /* SECCION INDEX */
+    .indexgif{
+        background-color: black;
+        background-image: none
+    }
+    .imgrvng{
+        width: 95%;
+    }
+ }

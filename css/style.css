@@ -50,6 +50,17 @@
   padding: 15px 30px 15px 30px;
 }
 
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  /* SECCION INDEX */
+  .indexgif {
+    background-color: black;
+    background-image: none;
+  }
+  .imgrvng {
+    width: 95%;
+  }
+}
 #tour {
   font-family: "PT Sans", bold;
   background: #090505;
@@ -108,6 +119,31 @@
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  #tour .contenedor {
+    flex-direction: column;
+  }
+  #tour .imgtour {
+    margin: 0px 120px;
+    width: 60%;
+    position: relative;
+    top: -15px;
+  }
+  #tour .tickets {
+    font-size: 30px;
+    margin-top: -60px;
+    margin-right: 50px;
+  }
+  #tour .texto-tour {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  #tour {
+    margin: 0px;
+    padding: 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   #tour .imgtour {
     margin: 0px 50px;
@@ -200,6 +236,13 @@
 #discografia .bulletstexto {
   font-size: 15px;
   padding-left: 30px;
+}
+
+#nosotros {
+  font-family: "PT Sans", sans-serif;
+}
+#nosotros .fotoNosotros {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
