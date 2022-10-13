@@ -1,6 +1,32 @@
 #nosotros{
-    font-family: 'PT Sans', sans-serif;
+    color: nth($colores, 1);
+
     .fotoNosotros{
         width: 100%;
     }
+    .titulo{
+        font-family: 'PT Sans', bold;
+        color: nth($colores, 1);
+        margin: 50px;
+    }
+    .descripcion{
+        font-family: 'PT Sans', sans-serif;
+        color: #a8a8a8;
+        margin: 50px;
+    }
+    blockquote{
+        font-family: 'PT Sans', bold;
+        vertical-align: bottom;
+        line-height: 26px;
+        border-right: 33px;
+        color: #fff;
+        font-size: 17px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top: 10px solid #fff;
+        border-bottom: 10px solid #fff;
+        margin: 200px 50px auto 30px;
+    }
+
+
 }
