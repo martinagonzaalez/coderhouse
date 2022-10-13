@@ -238,11 +238,104 @@
   padding-left: 30px;
 }
 
+/* MOBILE */
+@media screen and (max-width: 420px) {
+  #discografia .contenedor {
+    display: block;
+  }
+  #discografia .anuncio {
+    font-size: 23px;
+    margin: 14px 26px 25px -2px;
+  }
+  #discografia .descripcion {
+    font-size: 15px;
+    margin: 0px 4px 17px -35px;
+  }
+  #discografia .foto {
+    margin: 0px 0px 0px -108px;
+    display: flex;
+    height: 400px;
+  }
+  #discografia .bullets {
+    display: block;
+  }
+  #discografia .portadabullets {
+    margin: 0px 0px 0px -40px;
+    display: flex;
+    height: 400px;
+  }
+  #discografia .bulletsalbum {
+    margin: 14px 0px 25px -2px;
+  }
+  #discografia .descripcionbullets {
+    font-size: 15px;
+    margin: 0px -68px 11px -61px;
+  }
+}
 #nosotros {
-  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
 }
 #nosotros .fotoNosotros {
   width: 100%;
+}
+#nosotros .titulo {
+  font-family: "PT Sans", bold;
+  color: #ffffff;
+  margin: 50px;
+}
+#nosotros .descripcion {
+  font-family: "PT Sans", sans-serif;
+  color: #a8a8a8;
+  margin: 50px;
+}
+#nosotros blockquote {
+  font-family: "PT Sans", bold;
+  vertical-align: bottom;
+  line-height: 26px;
+  border-right: 33px;
+  color: #fff;
+  font-size: 17px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  margin: 280px 0px auto 0px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  #nosotros .d-flex {
+    display: none;
+  }
+  #nosotros .titulo {
+    margin: 21px 0px 43px 279px;
+  }
+  #nosotros .descripcion {
+    font-family: "PT Sans", sans-serif;
+    color: #a8a8a8;
+    margin: -18px -220px 15px 28px;
+    font-size: 17px;
+  }
+  #nosotros blockquote {
+    display: none;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #nosotros .d-flex {
+    display: none;
+  }
+  #nosotros .titulo {
+    margin: 21px 0px 43px 108px;
+  }
+  #nosotros .descripcion {
+    font-family: "PT Sans", sans-serif;
+    color: #a8a8a8;
+    margin: -18px -88px 0px 12px;
+    font-size: 17px;
+  }
+  #nosotros blockquote {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
