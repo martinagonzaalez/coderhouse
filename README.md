@@ -1,6 +1,6 @@
 # Proyecto de Coderhouse
 
-Este repositorio es sobre una página diseñada para un curso de desarrollo web virtual en la plataforma de Coderhouse.
+Este repositorio es sobre una página diseñada para un curso de desarrollo web en la plataforma de Coderhouse.
 
 
 ## Introducción
