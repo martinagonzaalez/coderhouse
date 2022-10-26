@@ -1,0 +1,9 @@
+.navbar-nav{
+    gap: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-nav{
+        gap: 0px;
+    }
+}

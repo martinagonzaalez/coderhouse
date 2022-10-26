@@ -1,7 +1,7 @@
 .indexgif{
-    background-image: url(/imagenes/MyChemicalRomance.gif);
-    background-size: cover;
-    height: 50px;
+    background-image: url(/imagenes/particles.gif);
+    background-size:contain;
+    height: 100%;
     padding:0;
     margin:0;
     .portada{
@@ -14,33 +14,25 @@
         }
         
         .out-now{
-            font-family: 'PT Sans', bold;
+            font-family: 'PT Sans';
             background-color: #525e7500;
             text-transform: uppercase;
             color: nth($colores, 1);
-            font-size: 45px;
+            font-size: 35px;
             padding: 10px 0px;
             display: flex;
             justify-content: center;
         }
         
-        .streaming-button{
-            display: flex;
-            justify-content: center;
-        }
+
         
         .streaming{
-            font-family: 'PT Sans', sans-serif;
-            text-decoration: inherit;
-            font-size: 14px;
-            font-weight: 200;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
+            display: flex;
+            justify-content: center;
             color: nth($colores, 1);
-            background-color: rgba(255, 255, 255, 0.082);
-            border-style: solid;
-            border-radius: 0px 0px 0px 0px;
-            padding: 15px 30px 15px 30px;
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: -6px;
+            gap: 24px;
         }
 }
 
@@ -52,6 +44,7 @@
         background-image: none
     }
     .imgrvng{
-        width: 95%;
+        width: 100% !important;
     }
  }
+ 
