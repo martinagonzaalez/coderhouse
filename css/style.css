@@ -40,12 +40,15 @@
   margin-top: -6px;
   gap: 24px;
 }
+.indexgif .platform {
+  color: #ffffff;
+}
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
   /* SECCION INDEX */
   .indexgif {
-    background-color: black;
+    background-color: #000000;
     background-image: none;
   }
   .imgrvng {
@@ -292,12 +295,12 @@
   vertical-align: bottom;
   line-height: 26px;
   border-right: 33px;
-  color: #fff;
+  color: #ffffff;
   font-size: 17px;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid #fff;
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
   margin: 280px 0px auto 0px;
 }
 

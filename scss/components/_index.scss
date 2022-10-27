@@ -34,13 +34,18 @@
             margin-top: -6px;
             gap: 24px;
         }
+        .platform{
+            color: nth($colores, 1);
+        }
 }
+
+
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
     /* SECCION INDEX */
     .indexgif{
-        background-color: black;
+        background-color: $mainColor;
         background-image: none
     }
     .imgrvng{
